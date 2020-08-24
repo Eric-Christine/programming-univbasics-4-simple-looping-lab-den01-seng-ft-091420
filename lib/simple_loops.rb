@@ -1,1 +1,31 @@
 # Write your methods here
+require 'pry'
+
+def loop_message_five_times(message) 
+  message = "Hello World."
+  count = 0 
+  while count < 5 do
+    puts message
+    count += 1 
+  end 
+  binding.pry
+end
+
+
+def loop_message_n_times(message, number)
+ 
+  count = 0
+  
+  while count < number do 
+    puts message
+    count +=1 
+  end
+  
+end
+    
+
+
+def output_array
+end
+def return_string_array
+end
