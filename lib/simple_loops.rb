@@ -24,7 +24,9 @@ end
     
 
 
-def output_array
+def output_array(message, number)
+  
+  
 end
 def return_string_array
 end
