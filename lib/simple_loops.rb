@@ -26,8 +26,9 @@ end
 
 def output_array(message, number)
   number.times do |count|
-    puts "#{message}"
+    puts message
   end
 end
+
 def return_string_array
 end
