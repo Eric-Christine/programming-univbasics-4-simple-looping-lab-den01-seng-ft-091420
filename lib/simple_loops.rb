@@ -28,6 +28,7 @@ def output_array(message, number)
   number.times do |count|
     puts message
   end
+  binding.pry
 end
 
 def return_string_array
