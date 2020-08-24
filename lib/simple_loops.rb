@@ -24,11 +24,8 @@ end
     
 
 
-def output_array(message, number)
-  number.times do |count|
-    puts message
-  end
-  binding.pry
+def output_array(array)
+  puts array
 end
 
 def return_string_array
